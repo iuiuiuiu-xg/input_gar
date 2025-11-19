@@ -1,0 +1,66 @@
+*,
+::after,
+::before {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #321A4A;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 1920px;
+}
+
+.container {
+    width: 1200px;
+    height: 770px;
+    border: 1px solid white;
+    border-radius: 60px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #FFFF;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.table-first {
+    width: 800px;
+}
+
+.table-example {
+    width: 800px;
+    height: 490px;
+    border: 1px solid white; 
+    border-collapse: collapse;
+}
+
+.table-example__thead {
+    width: 300px;
+    height: 70px;
+}
+
+.price {
+    width: 200px;
+    height: 70px;
+}
+
+.table-example__th, .table-example__td {
+    font-size: 24px;
+    color: #FFFF;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    font-weight: 400;
+}
